@@ -1,4 +1,3 @@
-import './App.css';
 import CityInformation from './components/CityInformation';
 import Navbar from './components/Navbar';
 import Highlights from './components/Highlights';
