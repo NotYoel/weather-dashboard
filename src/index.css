@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#highlights-grid {
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+@media screen and (max-width: 1024px) {
+    #highlights-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #highlights-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+
